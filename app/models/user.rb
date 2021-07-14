@@ -23,7 +23,7 @@ class User < ApplicationRecord
     BCrypt::Password.new(digest).is_password? token
   end
   def activate
-    update_attributes(
+    update(
       activated: true,
       activated_at: Time.zone.now
     )
