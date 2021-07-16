@@ -44,6 +44,10 @@ group :development do
   gem 'jquery-rails'
   gem 'will_paginate'
   gem 'bootstrap-will_paginate'
+  gem 'carrierwave'
+  gem 'mini_magick'
+  gem 'fog'
+
 end
 
 group :test do
