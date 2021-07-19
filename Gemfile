@@ -46,7 +46,6 @@ group :development do
   gem 'bootstrap-will_paginate'
   gem 'carrierwave'
   gem 'mini_magick'
-  gem 'fog'
 
 end
 
