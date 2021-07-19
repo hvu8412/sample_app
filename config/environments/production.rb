@@ -37,8 +37,15 @@ Rails.application.configure do
     config.logger    = ActiveSupport::TaggedLogging.new(logger)
   end
 
+  config.cache_classes = true
+  config.serve_static_assets = true
+  config.assets.compile = true
+  config.assets.digest = true
+
+
+
   config.active_record.dump_schema_after_migration = false
-  
+  config.consider_all_requests_local 
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
   host = 'sample-app-heroku0.herokuapp.com'
