@@ -1,5 +1,5 @@
 require_relative "boot"
-
+require 'carrierwave'
 require "rails/all"
 
 Bundler.require(*Rails.groups)
