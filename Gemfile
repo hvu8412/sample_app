@@ -15,6 +15,8 @@ gem 'faker'
 gem 'bootsnap', '>= 1.4.4', require: false
 gem 'bootstrap-sass'
 gem 'carrierwave'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
@@ -24,8 +26,6 @@ group :development do
   gem 'listen', '~> 3.3'
   gem 'spring'
   gem 'jquery-rails'
-  gem 'will_paginate'
-  gem 'bootstrap-will_paginate'
   gem 'mini_magick'
 end
 
