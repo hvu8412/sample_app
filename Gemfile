@@ -27,7 +27,6 @@ group :development do
   gem 'will_paginate'
   gem 'bootstrap-will_paginate'
   gem 'mini_magick'
-
 end
 
 group :test do
